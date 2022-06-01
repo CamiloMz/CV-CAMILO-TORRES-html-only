@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Camilo Torres">
+    <meta name="description" content="Información de educación para el curriculum vitae de Camilo Torres elaborado en HTMl como prueba final del modulo de Fundamentos de HTML de NextU ">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <!--Logo SVG y título del proyecto-->
+      <h1> <img src="../Images/Logo.svg" alt="Logo Hoja de Vida Camilo Torres" title="Logo Hoja de Vida Camilo Torres" width="300px" height="200px"/>
+      CURRICULUM VITAE</h1>
+    </header>
+
+    <article>
+      <!--Datos Personales-->
+      <h2>Omar Camilo Torres Martínez</h2>
+      <h3><em>20 de Septiembre de 1994, Bogotá D.C.</em></h3>
+    </article>
+    <hr/>
+    <nav>
+      <!--Enlaces de menú básico-->
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <table border="2" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Ciudad</th>
+          <th>Institución</th>
+          <th>Título</th>
+          <th>Fecha Fin</th>
+        </tr>
+        <tr>
+          <td>Bogotá</td>
+          <td>Centro Educativo Lombardía</td>
+          <td>Basica Primaria</td>
+          <td>12-Dic-2004</td>
+        </tr>
+        <tr>
+          <td>Bogotá</td>
+          <td>Centro Educativo Lombardía</td>
+          <td>Bachillerato Academico</td>
+          <td>12-Dic-2010</td>
+        </tr>
+        <tr>
+          <td>Bogotá</td>
+          <td>Fundación Universitaria los Libertadores</td>
+          <td>Ingeniero Aeronáutico</td>
+          <td>En progreso</td>
+        </tr>
+      </table>
+      <form autocomplete="on">
+        <fieldset>
+          <legend><h2>Agregar Estudios</h2></legend>
+          <br/>
+          <label for="Anio">Año: </label>
+          <select name="Anio" id="Anio">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+          </select> <br/><br/>
+          <label for="Institucion">Institución:</label>
+          <input type="text" name="Institucion" id="Institucion" placeholder="Ingrese la Institución" required>
+          <br/><br/>
+          <label for="Lugar">Lugar:</label>
+          <textarea name="Lugar" rows="2" cols="40" placeholder="Ingrese el Lugar"></textarea>
+          <br/><br/>
+          <input type="submit" value="Enviar">
+          </fieldset>
+      </form>
+    </section>
+    <footer>
+      <h2>Contacto</h2>
+      <p><em><strong>Correo:</strong><a href="mailto:octorresm94@gmail.com">  octorresm94@gmail.com</em></a></p>
+      <p><em><strong>Telefono:</strong> +57 318 649 92 67</em></p>
+      <p><em><strong>Facebook:</strong><a href="https://www.facebook.com/" target="_blank"> Camilo Torres</a></em></p><br/>
+    </footer>
+  </body>
+</html>
