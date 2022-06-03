@@ -1,4 +1,4 @@
-# HTML Fundamentals
+# CV CAMILO TORRES | HTML only
 
 This reposittory is an application of my aquired skills in HTML.  
 
